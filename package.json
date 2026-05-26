@@ -1,0 +1,15 @@
+{
+  "name": "sample-tests",
+  "version": "1.0.0",
+  "description": "A simple todo list app for playing with tests",
+  "main": "src/todoList.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": ["todo", "tests"],
+  "author": "",
+  "license": "ISC"
+}
