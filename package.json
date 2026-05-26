@@ -7,6 +7,8 @@
     "start": "node src/index.js",
     "build": "node scripts/build.js",
     "test": "node --test test/*.test.js",
+    "test:core": "node --test test/todoList.test.js",
+    "test:bulk": "node --test test/todoListBulk.test.js",
     "deploy": "node scripts/deploy.js"
   },
   "keywords": ["todo", "tests"],
